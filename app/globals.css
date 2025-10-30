@@ -29,6 +29,14 @@ body {
   @apply bg-white/10 border border-white/70 backdrop-blur-xs shadow-lg;
 }
 
+@utility glass-sm {
+  @apply bg-white/30 border border-white/50 backdrop-blur-xs;
+}
+
 @utility glass-md {
   @apply bg-white/50 border border-white/70 backdrop-blur-xs;
+}
+
+@utility clip-path-triangle {
+  @apply [clip-path:polygon(50%_0,100%_100%,0_100%)];
 }
